@@ -1,5 +1,10 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBBBBB;
+   
     padding: 20px 0;
 }
 .caixa {
@@ -7,6 +12,7 @@ header {
     width: 940px;
     margin:0 auto;
 }
+
 nav {
     position: absolute;
     top: 110px;
@@ -142,3 +148,41 @@ form label, form legend {
     border: 1px solid #000000;
     padding: 8px 15px;
  }
+ /* css da página inicial */
+ .banner{
+    width:100%;
+ }
+ .titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+ }
+ .principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 0;
+}
+.imagembeneficio {
+    width: 60%;
+}
+
+.mapa {
+    padding: 3em 0;
+
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
