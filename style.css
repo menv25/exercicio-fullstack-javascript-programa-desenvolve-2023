@@ -174,15 +174,41 @@ form label, form legend {
     float: left;
     margin: 0 20px 0;
 }
-.imagembeneficio {
-    width: 60%;
-}
-
 .mapa {
     padding: 3em 0;
 
 }
+
+.beneficios {
+    padding: 3em 0;
+}
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens {
+    line-height: 1.5;
+
+}
+.itens:first-child{
+    font-weight: bold;
+
+}
+.imagem-beneficios {
+    width: 60%;
+}
+
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
+}
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
